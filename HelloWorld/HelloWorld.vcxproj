@@ -112,9 +112,12 @@
   <ItemGroup>
     <ClCompile Include="FizzBuzz.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="Piece.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FizzBuzz.hpp" />
+    <ClInclude Include="HelloWorld.h" />
+    <ClInclude Include="Piece.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
